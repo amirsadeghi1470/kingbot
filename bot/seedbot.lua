@@ -328,97 +328,97 @@ Our channels
     help_text = [[
 Commands list :
 
-!kick [username|id]
+Kick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+Ban [ username|id]
 You can also do it by reply
 
-!unban [id]
+Unban [id]
 You can also do it by reply
 
-!who
+Who
 Members list
 
-!modlist
+Modlist
 Moderators list
 
-!promote [username]
+Promote [username]
 Promote someone
 
-!demote [username]
+Demote [username]
 Demote someone
 
-!kickme
+Kickme
 Will kick user
 
-!about
+About
 Group description
 
-!setphoto
+Setphoto
 Set and locks group photo
 
-!setname [name]
+Setname [name]
 Set group name
 
-!rules
+Rules
 Group rules
 
-!id
+Id
 return group id or user id
 
-!help
+Help
 
-!lock [member|name|bots|leave]	
+Lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+Unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
-!set rules <text>
+Set rules <text>
 Set <text> as rules
 
-!set about <text>
+Set about <text>
 Set <text> as about
 
-!settings
+Settings
 Returns group settings
 
-!newlink
+Newlink
 create/revoke your group link
 
-!link
+Link
 returns group link
 
-!owner
+Owner
 returns group owner id
 
-!setowner [id]
+Setowner [id]
 Will set id as owner
 
-!setflood [value]
+Setflood [value]
 Set [value] as flood sensitivity
 
-!stats
+Stats
 Simple message statistics
 
-!save [value] <text>
+Save [value] <text>
 Save <text> as [value]
 
-!get [value]
+Get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+Clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+Res [username]
 returns user id
 "!res @username"
 
-!log
+Log
 will return group logs
 
-!banlist
+Banlist
 will return group ban list
 
 **U can use both "/" and "!" 
